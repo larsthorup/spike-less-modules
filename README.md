@@ -16,7 +16,7 @@ To build
 --------
 
     cd base && npm install 
-    todo: (cd feed && npm install && grunt)
+    cd feed && npm install
     todo: (cd home && npm install && grunt)
     todo: (cd app && npm install && grunt)
     
