@@ -1,0 +1,17 @@
+{
+    "name": "spike-less-modules-base",
+    "version": "0.1.1",
+    "homepage": "https://github.com/larsthorup/spike-less-modules",
+    "authors": [
+        "Lars Thorup <lars@zealake.com>"
+    ],
+    "private": true,
+    "license": "MIT",
+    "dependencies": {
+        "bootstrap": "~3.2.0",
+        "requirejs": "~2.1.14",
+        "requirejs-text": "~2.0.12",
+        "require-css": "~0.1.4",
+        "require-less": "~0.1.2"
+    }
+}
