@@ -18,7 +18,8 @@ require.config({
     },
     less: {
         logLevel: 1 // Note: only show errors
-    }
+    },
+    waitSeconds: 30
 });
 require(['jquery', 'feed/js/feed', 'less!app/less/app'], function ($, feed) {
     feed.render($('#feed-container'));

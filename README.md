@@ -21,5 +21,5 @@ To build
     (cd base && npm install) 
     (cd feed && npm install)
     (cd app && npm install && grunt)
-    open http://localhost:8765/src/index.html
+    open http://localhost:8765/index.html
     
