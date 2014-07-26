@@ -13,8 +13,6 @@ Note: we are not actually registering and releasing to bower, just simulating us
 Note: this only works as long as we enforce clear constraints on directory structure so ../../../bower_components works 
  inside .less files no matter whether they are located inside src or inside bower_components.
 
-ToDo: bundle
-
 To build
 --------
 
