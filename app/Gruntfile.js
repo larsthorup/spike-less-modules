@@ -9,6 +9,11 @@ module.exports = function (grunt) {
     // convenience
     grunt.registerTask('default', ['bundle', 'serve']);
 
+
+    // debug
+    grunt.loadNpmTasks('grunt-debug-task');
+
+
     // postinstall
     grunt.loadNpmTasks('grunt-contrib-copy');
     gruntConfig.copy = {

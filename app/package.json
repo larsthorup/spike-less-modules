@@ -14,7 +14,8 @@
         "grunt-contrib-copy": "~0.5.0",
         "grunt-contrib-connect": "~0.8.0",
         "grunt-contrib-requirejs": "~0.4.4",
-        "less": "~1.7.3"
+        "less": "~1.7.3",
+        "grunt-debug-task": "romario333/grunt-debug-task#master"
     },
     "scripts": {
         "postinstall": "node node_modules/bower/bin/bower install && grunt postinstall"
